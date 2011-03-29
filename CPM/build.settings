@@ -1,0 +1,17 @@
+-- build.settings for project: ExportImages
+-- Managed with http://CoronaProjectManager.com
+-- Copyright 2011 Kevin Jones. All Rights Reserved.
+-- cpmgen build.settings
+settings =
+{
+	orientation =
+	{
+		default ="landscapeLeft",
+		content = "landscapeLeft",
+		supported =
+		{
+			"landscapeLeft","landscapeRight"
+		},
+	},
+
+}
