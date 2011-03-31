@@ -125,8 +125,9 @@ try
 		} else {
 			isWindows = false;
 	}
-
-	trace("Starting the export using version "+scriptversion + " using "+isWindows?"Windows":"Mac");
+	
+	trace("Starting the export using version "+scriptversion);
+	trace(" using "+(isWindows==true)?"Windows":"Mac");
 
 	//build scenes one group at a time
 	for(i=0;i<totalLayers;i++)
