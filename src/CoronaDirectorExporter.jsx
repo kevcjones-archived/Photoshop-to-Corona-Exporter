@@ -223,6 +223,7 @@ function HandleScene(layer)
 	if(currentScene == null) // first scene found create some folders so we can export
 	{
 		//create the export folders...
+		trace("Create folders...");
 		new Folder (dom.path+"/"+exportFolder).create()
 		new Folder(dom.path+"/"+exportFolder+assetsFolder).create()
 	}
